@@ -1,0 +1,16 @@
+# Data (large / licensed) — see README for sources
+data/raw/*
+!data/raw/UMCSENT_consumersentiment.csv
+!data/raw/MICH_inflation.csv
+data/processed/
+archive/zip_files/
+
+# Python / Jupyter
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
